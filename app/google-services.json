@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "294989187343",
+    "project_id": "beerlovers-5c4a6",
+    "storage_bucket": "beerlovers-5c4a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294989187343:android:9d5853412f81b56848567a",
+        "android_client_info": {
+          "package_name": "com.lucasesteves.beerloversapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294989187343-c9guf0aoqlau9n1miir5325fa3jc0que.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lucasesteves.beerloversapp",
+            "certificate_hash": "bc8cd0c39741d35db6620df8025c6236eca3a37f"
+          }
+        },
+        {
+          "client_id": "294989187343-erfqq94uri96s60442l305b97n9iooti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1adgmL2x9_tqXRqtjA1ZkAI6XcH6X32w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294989187343-erfqq94uri96s60442l305b97n9iooti.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

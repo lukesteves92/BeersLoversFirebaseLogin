@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.lucasesteves.beerloversapp.homeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment2_to_agendaFragment2"
+            app:destination="@id/agendaFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_agendamentosFragment2"
+            app:destination="@id/agendamentosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/agendaFragment"
+        android:name="com.lucasesteves.beerloversapp.agendaFragment"
+        android:label="fragment_agenda"
+        tools:layout="@layout/fragment_agenda" />
+    <fragment
+        android:id="@+id/agendamentosFragment"
+        android:name="com.lucasesteves.beerloversapp.agendamentosFragment"
+        android:label="fragment_agendamentos"
+        tools:layout="@layout/fragment_agendamentos" >
+        <action
+            android:id="@+id/action_agendamentosFragment_to_contaFragment"
+            app:destination="@id/contaFragment" />
+        <action
+            android:id="@+id/action_agendamentosFragment_to_configContaFragment"
+            app:destination="@id/configContaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/contaFragment"
+        android:name="com.lucasesteves.beerloversapp.ContaFragment"
+        android:label="fragment_conta"
+        tools:layout="@layout/fragment_conta" />
+    <fragment
+        android:id="@+id/configContaFragment"
+        android:name="com.lucasesteves.beerloversapp.ConfigContaFragment"
+        android:label="fragment_config_conta"
+        tools:layout="@layout/fragment_config_conta" />
+</navigation>
